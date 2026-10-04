@@ -1,0 +1,58 @@
+{
+  "name": "snake2-watchface",
+  "author": "Damian Riggert",
+  "version": "1.0.0",
+  "keywords": ["pebble-app", "watchface"],
+  "private": true,
+  "dependencies": {
+    "pebble-clay": "^1.0.4"
+  },
+  "pebble": {
+    "displayName": "Snake 2 Watchface",
+    "uuid": "0d62e125-6553-4eab-8484-4778e0d7a2f9",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "emery",
+      "basalt"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "capabilities": ["location"],
+    "messageKeys": [
+      "TEMPERATURE",
+      "WEATHER_ICON",
+      "COLOR_SCHEME",
+      "LANGUAGE",
+      "SNAKE_SKIN",
+      "SNAKE_SPEED",
+      "ITEM_SET",
+      "CELSIUS",
+      "SHOW_24H",
+      "SHOW_WEATHER",
+      "WEATHER_PROVIDER",
+      "ANIM_EVERY_MINUTE",
+      "CLOCK_FONT",
+      "SNAKE_GROWTH",
+      "STEPS_PER_MIN"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "font",
+          "characterRegex": "[0-9: ]",
+          "name": "CLOCK_FIRA_48",
+          "file": "fonts/FiraSans-Bold.ttf"
+        },
+        {
+          "type": "font",
+          "characterRegex": "[0-9: ]",
+          "name": "CLOCK_FIRA_60",
+          "file": "fonts/FiraSans-Bold.ttf",
+          "targetPlatforms": ["emery"]
+        }
+      ]
+    }
+  }
+}

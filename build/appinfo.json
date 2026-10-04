@@ -1,0 +1,75 @@
+{
+    "displayName": "Snake 2 Watchface",
+    "uuid": "0d62e125-6553-4eab-8484-4778e0d7a2f9",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+        "emery",
+        "basalt"
+    ],
+    "watchapp": {
+        "watchface": true
+    },
+    "capabilities": [
+        "location",
+        "configurable"
+    ],
+    "messageKeys": {
+        "TEMPERATURE": 10000,
+        "WEATHER_ICON": 10001,
+        "COLOR_SCHEME": 10002,
+        "LANGUAGE": 10003,
+        "SNAKE_SKIN": 10004,
+        "SNAKE_SPEED": 10005,
+        "ITEM_SET": 10006,
+        "CELSIUS": 10007,
+        "SHOW_24H": 10008,
+        "SHOW_WEATHER": 10009,
+        "WEATHER_PROVIDER": 10010,
+        "ANIM_EVERY_MINUTE": 10011,
+        "CLOCK_FONT": 10012,
+        "SNAKE_GROWTH": 10013,
+        "STEPS_PER_MIN": 10014
+    },
+    "resources": {
+        "media": [
+            {
+                "type": "font",
+                "characterRegex": "[0-9: ]",
+                "name": "CLOCK_FIRA_48",
+                "file": "fonts/FiraSans-Bold.ttf"
+            },
+            {
+                "type": "font",
+                "characterRegex": "[0-9: ]",
+                "name": "CLOCK_FIRA_60",
+                "file": "fonts/FiraSans-Bold.ttf",
+                "targetPlatforms": [
+                    "emery"
+                ]
+            }
+        ]
+    },
+    "name": "snake2-watchface",
+    "shortName": "Snake 2 Watchface",
+    "longName": "Snake 2 Watchface",
+    "versionLabel": "1.0.0",
+    "companyName": "Damian Riggert",
+    "appKeys": {
+        "TEMPERATURE": 10000,
+        "WEATHER_ICON": 10001,
+        "COLOR_SCHEME": 10002,
+        "LANGUAGE": 10003,
+        "SNAKE_SKIN": 10004,
+        "SNAKE_SPEED": 10005,
+        "ITEM_SET": 10006,
+        "CELSIUS": 10007,
+        "SHOW_24H": 10008,
+        "SHOW_WEATHER": 10009,
+        "WEATHER_PROVIDER": 10010,
+        "ANIM_EVERY_MINUTE": 10011,
+        "CLOCK_FONT": 10012,
+        "SNAKE_GROWTH": 10013,
+        "STEPS_PER_MIN": 10014
+    }
+}
